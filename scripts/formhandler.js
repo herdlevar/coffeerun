@@ -39,9 +39,9 @@
       if (fn(emailAddress)) {
         $(event.target).setCustomValidity(message);
       } else {
-        message = emailAddress + ' is not an authorized email address!';
-        $(event.target).setCustomValidity(message);
-      }
+        message = emailAddress + ' is not an authorized email address!'
+        event.target.setCustomValidity(message);
+      } 
     });
   };
 
