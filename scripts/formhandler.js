@@ -29,7 +29,7 @@
       this.reset();
       this.elements[0].focus();
     });
-  }
+  };
 
   App.FormHandler = FormHandler;
   window.App = App;
